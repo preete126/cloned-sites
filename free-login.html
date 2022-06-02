@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <style>
+        section {
+            background-color: rgb(252, 248, 248);
+            margin: auto;
+            height: 100vh;
+        }
+        .g {
+            background-color: white;
+            width: 410px;
+            /* height: 500px; */
+            box-shadow: 0px 0px 3px rgb(182, 175, 175);
+        }
+        .o {
+            padding-top: 20px;
+           
+        }
+        .but {
+            outline: none;
+            border: none;
+            background-color: rgb(66, 103, 178);
+
+        }
+        .div {
+            background-color: rgb(66, 103, 178);
+        }
+        .w {
+            width: 87%;
+        }
+        input:focus {
+            /* outline: none; */
+        } 
+        @media (max-width:440px) {
+            .g {
+                width: 98%;
+                margin-top: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="o ">
+        <main class="g  mx-auto" >
+            <form class="l text-center pt-5 ">
+                <img width="45%" src="../sqi/freelancer-logo.svg" alt="">
+                <p class="fs-5 fw-bold pt-3">Welcome Back</p>
+               <div class="div form-group d-flex m-4 " >
+                   <img width="14%" height="10%" class="ps-4 mt-2 ms-4" src="../sqi/face.webp" alt="">
+                   <button class="but text-white form-control fs-5 fw-bold pe-4 me-3">Log in with Facebook</button>
+               </div>
+               <div class="d-flex flex-wrap ms-4 ">
+                <hr style="border-bottom: 0.2px solid lightgrey; margin-right: 10px;   width: 42%">
+                <span class="fw-bold fs-6">OR</span>
+                <hr style="border-bottom: 0.2px solid lightgrey; margin-left: 8px;  width: 42%">
+               </div>
+               <div class="form-group">
+                   <input type="email" class="form-control rounded-0 w mx-auto mt-3 p-2 ps-3" placeholder="Email or Username">
+               </div>
+               <div class="form-group">
+                   <input type="password" class="form-control rounded-0 w mx-auto mt-3 p-2 ps-3" placeholder="password">
+               </div>
+               <div class="form-group pt-4 pb-4 " >
+                  <input type="checkbox" name="" id="" style="margin-left: px;"> Remember me
+                  <div class="text-primary d-inline q" style="margin-left: 113px;">Forgot password?</div>
+               </div>
+               <div class="form-group">
+                   <button class="form-control w ms-4 rounded-0 fs-5 fw-bold bg-primary text-white mb-4 ">Log In</button>
+               </div>
+               <hr style="border-bottom: 0.2px solid lightgrey; margin: 30px; margin-bottom: 15px;">
+               <p class="small pb-4">Don't have an account? <span class="text-primary">Sign up</span> </p>
+               <div class="pb-4">
+                <img width="32%" src="../sqi/boostrap/login-img1.webp" alt="">
+                <img width="37%" class="ms-3" src="../sqi/boostrap/login-img2.webp" alt="">
+ 
+               </div>
+            </form>
+        </main>
+    </section>
+</body>
+</html>
